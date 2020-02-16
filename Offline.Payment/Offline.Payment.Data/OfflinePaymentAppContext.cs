@@ -113,8 +113,16 @@ namespace Offline.Payment.Data
 
             modelBuilder.Entity<UserTransaction>(entity =>
             {
+                entity.Property(e => e.CreatedBy)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.TransactionType)
                     .HasMaxLength(20)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.UpdatedBy)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.User)
