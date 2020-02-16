@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offline.Payment.API", "Offline.Payment.API\Offline.Payment.API.csproj", "{8EE1EE79-1711-4699-B6BB-3F0D2AF0399E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Offline.Payment.API", "Offline.Payment.API\Offline.Payment.API.csproj", "{8EE1EE79-1711-4699-B6BB-3F0D2AF0399E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offline.Payment.Business", "Offline.Payment.Business\Offline.Payment.Business.csproj", "{5218FC62-2C59-41A7-BBD3-A738D4520ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Offline.Payment.Business", "Offline.Payment.Business\Offline.Payment.Business.csproj", "{5218FC62-2C59-41A7-BBD3-A738D4520ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offline.Payment.Data", "Offline.Payment.Data\Offline.Payment.Data.csproj", "{35150528-52F9-4D9C-AE04-B73F6B5A06A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Offline.Payment.Data", "Offline.Payment.Data\Offline.Payment.Data.csproj", "{35150528-52F9-4D9C-AE04-B73F6B5A06A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
